@@ -2,7 +2,7 @@
 
 
 ## Instalação Oracle Linux
-- Primeiramente iremos baixar a plataforma Oracle Virtual Box, pelo site oficial para evitar arquivos maliciosos com o link a seguir (https://www.virtualbox.org/wiki/Downloads). Para instalar basta prosseguir sem alterar nada.
+- Primeiramente iremos baixar a plataforma Oracle Virtual Box, pelo site oficial para evitar arquivos maliciosos com o link a seguir (https://www.virtualbox.org/wiki/Downloads).Para instalar basta prosseguir sem alterar nada.
 - Agora iremos baixar a ISO 8.6 diretamente do site da Oracle (https://yum.oracle.com/oracle-linux-isos.html).![image](https://user-images.githubusercontent.com/80935917/189503720-fb7b13c1-08aa-4ccd-b6e1-20afa74c9edd.png)
 - Basta definir nome, diretório, tipo e versão  
 ![image](https://user-images.githubusercontent.com/80935917/189503837-78be7878-5b82-4bc1-8f64-23b9c1ef4429.png)
@@ -13,12 +13,17 @@
 ![image](https://user-images.githubusercontent.com/80935917/189503970-86e5a018-69b1-4de9-821f-f1a5f0e149d2.png)  
 ![image](https://user-images.githubusercontent.com/80935917/189503972-f6275ad8-2521-41e8-a626-0dec1372a1cc.png)  
 ![image](https://user-images.githubusercontent.com/80935917/189503975-5d7b0fd5-47c2-495e-a744-d19e2752861b.png)  
-- Para instalar a ISO, iremos em Settings -> Storage e clicar no ícone circulado em vermelho.  
+- Para instalar a ISO, iremos em Settings -> Storage, clicar no ícone circulado em vermelho e selecionar o arquivo.  
 ![image](https://user-images.githubusercontent.com/80935917/189503981-91f896dd-675a-43fe-b8de-17364225d394.png)  
-- Na parte de rede, as configurações ficam em Settings -> Network.  
-![image](https://user-images.githubusercontent.com/80935917/189503984-ec225c96-c1fe-49a8-8b56-631fe249a36e.png)
-
-
+- Na parte de rede, as configurações ficam em Settings -> Network, iremos escolher o modo bridge.  
+![image](https://user-images.githubusercontent.com/80935917/189503984-ec225c96-c1fe-49a8-8b56-631fe249a36e.png)  
+- Antes de ligar a máquina, vá em Settings -> System, o pointing device que vamos utilizar é o USB Tablet e impedir um bug no mouse na instalação.  
+- Para prosseguir, vamos iniciar a máquina e escolher o inglês como idioma.   
+- Após isso, em installation destination basta marcar o disco que vai ser utilizado.  
+- Em Network & Host Name, podemos ativar a rede que está configurada como em modo bridge.
+- Em Root Password, defina a sua senha.
+- Por último, em Software Selection, marque a opção minimal install, para não utilizar interface gráfica e afins.
+- Pronto, basta clicar em Begin Installation!
 
 
 
